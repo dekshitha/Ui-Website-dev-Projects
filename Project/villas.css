@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+
+.text-block{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    margin-left:35%;
+    margin-right:30%;
+    color: rgb(234, 240, 236);
+    font-size: 80px;
+    /* background-color: #0c0c0c;
+    opacity: 0.5; */
+    font-family: Libre Baskerville;
+    
+    text-transform: capitalize;
+}
+
+.text-block h2{
+    font-family: Libre Baskerville; 
+    text-transform: uppercase;
+}
+
+.text-block h4{
+font-family: Dancing Script; 
+color: white;
+
+padding-left: 50px;
+}
+
+.para1{
+    margin-top:10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: rgba(105, 239, 90, 0.833);
+  }
+
+  .carousel-caption p{
+    font-family: Libre Baskerville; 
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #258704;
+    font-weight: bolder;
+    font-style: italic;
+    position: relative;
+    margin-top: 600px;
+    background-color: rgb(223, 247, 223);
+    
+}
+#para4{
+   
+  color: rgb(38, 27, 27);
+  text-align: justify;
+  margin-right: 10px ;
+  font-size: 15px;
+  font-family: Lora;
+
+}
+
+#side{
+    margin-left: 30px;
+    background-color: white;
+}
+
+#para3{
+  color: rgb(232, 150, 37);
+  text-align: center;
+  font-size: 30px;
+  font-family: Lora;
+
+}
+
+.jumbotron{
+    height: 400px;
+}
+
+button{
+  background-image: linear-gradient(144deg,#55e774, #c1f3c4 50%,#9fecd6);
+  border-radius: 8px;
+  border-color: #2c0a62;
+}
+button:hover{
+  background-image: linear-gradient(144deg,#2c0a62, #4286f3 50%,#00DDEB);
+}

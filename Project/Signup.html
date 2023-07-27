@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+  <link rel="stylesheet" type="text/css" href="C:\UiTraining\CaseStudy\login.css">
+
+  <script type="text/javascript">
+    $(function(){
+
+      let p1=$("#inputPassword3").val();
+      let p2=$("#inputPassword3").val();
+  
+  
+      $("#form1").submit(
+          function(){
+
+            if(p1==p2)
+            {
+              alert("Login successfull")
+              window.location.href='C:/UiTraining/CaseStudy/login.html';
+              return false; 
+            }
+
+            else{
+              alert("Please check password");
+            }
+      })
+  
+  });
+  
+  
+  
+  </script>
+
+
+</head>
+
+<body>
+<div class="container-fluid">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Sign-Up</li>
+        </ol>
+      </nav>
+    </nav>
+
+  <div class="row" id="heading">
+    <h2>Welcome To Exotica</h2>
+    </div>
+    <div class="row" id="heading2">
+    <h6 style="margin-left: 40px;">Already a member? <a style="color: white;" href="login.html">Login</a></h6>
+  </div>
+  <br>
+  <form id="form1">
+    
+    <fieldset>
+    <p>Sign-Up</p>  
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" required>
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" required>
+        </div>
+      </div>
+    </form>
+    <div class="form-group row">
+      <label for="inputEmail3" id="text" class="mt-4 pl-md-0  pl-0 col-sm-3 col-lg-4  col-form-label">Email</label>
+      <div class="col-lg-8">
+        <input type="email" class="form-control col-lg-8 mt-4" id="inputEmail3" placeholder="Email" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" id="text" class="mt-4 pl-md-0  pl-0 col-sm-3 col-lg-4 col-form-label">Set Password</label>
+      <div class="col-lg-8">
+        <input type="password" class="form-control col-lg-8 mt-4" id="inputPassword3" placeholder="Password" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" id="text" class="mt-4 pl-md-0  pl-0 col-sm-3 col-lg-4 col-form-label">Confirm Password</label>
+      <div class="col-lg-8">
+        <input type="password" class="form-control col-lg-8 mt-4" id="inputPassword4" placeholder="Password" required>
+      </div>
+    </div>
+  <br>
+    <div class="form-group row">
+      
+      <div class="col-sm-10">
+        <div class="form-check" id="check">
+          <input class="form-check-input" type="checkbox" id="gridCheck1" required>
+          <label class="form-check-label" for="gridCheck1" style="color: white;">
+            Agree to the terms & conditions
+          </label>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="form-group row">
+      <div class="col-sm-10" id="submit">
+        <button type="submit" class="btn btn-primary">Sign up</button>
+      </div>
+    </div>
+  </fieldset>
+  </form>
+</div>
+
+</body>
+</html>

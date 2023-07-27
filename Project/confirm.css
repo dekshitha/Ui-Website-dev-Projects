@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(14, 43, 76);
+}
+
+.text-block{
+    position: absolute;
+    /* top: 40%; */
+    text-align: center;
+    margin-left:35%;
+    margin-right:30%;
+    color: white;
+    font-size: 60px;
+    /* background-color: #0c0c0c;
+    opacity: 0.5; */
+    
+    text-transform: capitalize;
+}
+
+#table1{
+    position: relative;
+    margin-top: 10%;
+    background-color: rgb(158, 193, 233);
+    /* width: 30%; */
+    margin-left: 35%;
+    margin-right: 30%;
+
+}
+
+th,td{
+    color: rgb(8, 9, 11);
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

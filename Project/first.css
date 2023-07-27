@@ -1,0 +1,120 @@
+nav{
+    background-color:#0c0c0c ;
+    
+
+    
+}
+.logo{
+    display: inline;
+    vertical-align: top;
+    height:70px; 
+    width:100px;
+    padding-top: 5px;
+    padding-right: 150px;
+    padding-left: 10px ;
+    color: aliceblue;
+}
+nav a{
+display: inline-top;
+color: white;
+padding-right: 50px;
+/* padding-top: 50px; */
+line-height: 80px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+
+.container{
+    position:relative
+}
+
+.text-block{
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    margin-left:150px;
+    margin-right:150px;
+    color: #00DDEB;
+    font-size: 40px;
+    /* background-color: #0c0c0c;
+    opacity: 0.5; */
+    
+    text-transform: capitalize;
+}
+
+.text-block h2{
+    font-family: Libre Baskerville; 
+    text-transform: uppercase;
+}
+
+.text-block h4{
+font-family: Dancing Script; 
+color: white;
+
+padding-left: 50px;
+}
+
+.button-63 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#2c0a62, #4286f3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: rgb(249, 246, 241);
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 40%;
+    
+  }
+  
+  .button-63:active,
+  .button-63:hover {
+    outline: 0;
+    background-image: linear-gradient(144deg,#b3a6c7, #50a9f2 50%,#81ced3);
+  }
+  
+  @media (min-width: 768px) {
+    .button-63 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+  body{
+    background-color: #0c0c0c;
+  }
+
+  .para1{
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgba(158, 142, 19, 0.833);
+  }
+
+
+
+  .para2 p{
+    position: absolute;
+    left:650px;
+    right:50px;
+    color: white;
+    text-align: center;
+    display: inline;
+    font-size: 30px;
+    font-family: Lora;
+
+  }
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exotica</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre Baskerville|Roboto Slab|Merriweather|Dancing Script|Lora">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="C:\UiTraining\CaseStudy\booking.css">
+
+
+  <script type="text/javascript">
+    $(function(){
+
+
+$("#form2").submit(
+    function(){
+        alert("Booking successfull")
+        window.location.href='C:/UiTraining/CaseStudy/confirm.html';
+        return false; 
+})
+
+});
+
+ 
+ 
+  </script>
+
+
+
+
+  <head>
+
+<body>
+   
+<div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="villas.html">Villas</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Booking</li>
+            </ol>
+          </nav>
+        </nav>
+<br>
+<br>
+  <div class="row" id="heading" >
+    <h2>Resort Booking Form</h2>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="row"> 
+  <form class="pl-md-0" onsubmit="submitfunc()" id="form2">
+    
+    <fieldset>  
+    <div class="form-group row">
+      <label for="input3" id="text" class="mt-4 pl-md-0  pl-0 col-sm-3 col-lg-4  col-form-label">Enter Your Name</label>
+      <div class="col-lg-8">
+        <input type="text" class="form-control col-lg-8 mt-4" id="input3" placeholder="First Name" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="input3" id="text" class="mt-4 pl-md-0  pl-0 col-sm-3 col-lg-4 col-form-label">Phone Number</label>
+      <div class="col-lg-8">
+        <input type="number" class="form-control col-lg-8 mt-4" id="input4" placeholder="Phone Number" required>
+      </div>
+    </div>
+    <div class="form-group row">
+        <label for="input3" id="text" class="mt-4 pl-md-0  pl-0 col-sm-3 col-lg-4 col-form-label">Arrival Date</label>
+        <div class="col-lg-8">
+          <input type="date" class="form-control col-lg-8 mt-4" id="input3" placeholder="Arrival Date" required>
+        </div>
+      </div>
+    <div class="form-group row">
+        <label for="input3" id="text" class="mt-4 pl-md-0  pl-0 col-sm-3 col-lg-4 col-form-label">Departure Date</label>
+        <div class="col-lg-8">
+          <input type="date" class="form-control col-lg-8 mt-4" id="input3" placeholder="Arrival Date" required>
+        </div>
+      </div> 
+      <div class="form-group row">
+        <label for="input3" id="text" class="mt-4 pl-md-0  pl-0 col-sm-3 col-lg-4 col-form-label">No. of guests</label>
+        <div class="col-lg-8">
+          <input type="number" class="form-control col-lg-8 mt-4" id="input3" placeholder="No. of guests" required>
+        </div>
+      </div>
+    
+      <div class="form-group row">
+        <label for="input3" id="text" class="mt-4 pl-md-0  pl-0 col-sm-3 col-lg-4 col-form-label">Room Type</label>
+        <div class="col-lg-8">
+        <select class="form-control col-lg-8 mt-4 " name="room" id="input3" placeholder="Room type" required>
+            <option value="Suite Ocean Facing" >Suite Ocean Facing</option>
+            <option value="Island Family Villa">Island Family Villa</option>
+            <option value="Deluxe">Deluxe</option>
+        </select>
+      </div>
+      </div>
+  <br>
+    <div class="form-group row">
+      
+      <div class="col-sm-10">
+        <div class="form-check" id="check">
+          <input class="form-check-input" type="checkbox" id="gridCheck1" required>
+          <label class="form-check-label" for="gridCheck1" style="color: white;">
+            Agree to the terms & conditions
+          </label>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="form-group row">
+      <div class="col-sm-10" id="submit">
+        <button type="submit"  class="btn btn-primary">Book Now</button>
+      </div>
+    </div>
+
+    <p id="try">
+
+    </p>
+  </fieldset>
+  </form>
+  </div>
+</div>
+
+</body>
+</html>

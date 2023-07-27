@@ -1,0 +1,65 @@
+/* .container form{
+    background-color: rgb(142, 185, 185);
+    
+    /* margin-top: 15%;
+    margin-left: 30%;
+    margin-right: 100px; */
+    /* position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%) */
+    /* padding-bottom: 50px;
+    align-self: center;
+} */
+
+body{
+    background-image: url("Images/login.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+#heading{
+    position: relative;
+    margin-top:1%;
+    left: 42%;
+    text-align: center;
+} 
+#heading2{
+    position: relative;
+    top:18%;
+    left: 42%;
+    text-align: center;
+} 
+
+#text{
+    padding-left:70px;
+    /* padding-right:20px; */
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(248, 245, 245);
+}
+
+fieldset{
+    background-color: rgb(51, 52, 53);
+    width: 50%;
+    position: relative;
+    margin-top:20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   opacity:0.8;
+   border: 2px solid black;
+}
+
+fieldset p{
+text-align: center;
+padding-top: 10px;
+color: rgb(25, 146, 227);
+font-size: xx-large;
+}
+#check{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#submit{
+    margin-left: 43% ;
+}
