@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+         [title]{
+            background-color: chartreuse;
+        }
+        [title="hello"]{
+            background-color: rgb(68, 0, 255);
+        }
+        [title^="any"]{
+            background-color: rgb(255, 85, 0);
+        }
+
+        div[title="welcome"]
+        {
+            background-color: rgb(235, 146, 82);
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+   <div title="hello"> this is div one</div>
+   <div title="anythertitle">this is div two</div> 
+   <div title="anytitle">this is div three</div>
+   <div title="welcome">Welcome</div>
+</body>
+</html>

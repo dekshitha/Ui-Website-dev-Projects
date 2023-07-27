@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+
+        <script>
+             function changeColorRed(){
+            document.getElementById("one").style.backgroundColor="red"
+        }
+        function changeColorGreen(){
+            document.getElementById("one").style.backgroundColor="green"
+        }
+        function changeColorBlue(){
+            document.getElementById("one").style.backgroundColor="blue"
+
+
+            
+        }
+        </script>
+
+
+
+    </head>
+    <body id="one">
+
+        <h1>example of dynamic style</h1>
+        <form>
+            <input onclick="changeColorRed()" type="radio" id="red" name="color" value="red" checked>Red
+            <input onclick="changeColorBlue() " type="radio" id="blue" name="color" value="blue">Blue
+            <input onclick="changeColorGreen()" type="radio" id="green" name="color" value="green">Green
+        </form>
+    </body></html>

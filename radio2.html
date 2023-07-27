@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+    
+    .classone{
+        background-color: red;
+    }
+
+    .classtwo{
+        background-color: green;
+    }
+    .classthree{
+        background-color: blue;
+    }
+</style>
+
+<script>
+        function changeColorRed(){
+            document.getElementById("one").classList.remove("classtwo")
+            document.getElementById("one").classList.remove("classthree")
+            document.getElementById("one").classList.add("classone")
+        }
+        function changeColorGreen(){
+            document.getElementById("one").classList.remove("classone")
+            document.getElementById("one").classList.remove("classthree")
+            document.getElementById("one").classList.add("classtwo")
+        }
+        function changeColorBlue(){
+            document.getElementById("one").classList.remove("classtwo")
+            document.getElementById("one").classList.remove("classthree")
+            document.getElementById("one").classList.add("classthree")
+          
+        }
+        </script>
+</head>
+<body id="one">
+    <h1>example of dynamic style using javascript</h1>
+    
+    <form>
+        <input onclick="changeColorRed()" type="radio" id="red" name="color" value="red" checked/>Red
+        <input onclick="changeColorGreen()" type="radio" id="green" name="color" value="green"/>Green
+        <input onclick="changeColorBlue()" type="radio" id="blue" name="color" value="blue"/>Blue
+     </form>
+    </form>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<html>
+    <head>
+
+        <style>
+
+            nav ul li{
+
+                display: inline;
+            }
+
+            input:focus{
+                background-color: aquamarine;
+            }
+
+
+
+        </style>
+
+    </head>
+    <body>
+        <header style="font-size:50px;">
+            NTT DATA <img style="width:100px; height:50px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAZlBMVEX///9khcFhg8BXfL17l8pegb/d4/D19/tafr5We721w+CtvNxggsDT2+x2ksdsi8Tv8vimt9nk6fOTqdKMpNB2nMvK1OijtNh6lsm+yuNwjsbp7fVKdLm/y+OHn83f5fGbrdSFmcqLzbAVAAAEgUlEQVR4nO3Z2baqOBQF0DQgCTbYlf2Be///JwvYCQZIFBU5VWOs+aSQxGRJs0XGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOD/LUl+ewa/7ciVjKNla1t0quwYy0+R32rLzqvQvtQMk3ha5Lt01nxOujp1RPnxZ13v214Cw59yxnbdfqdovzm8+V0mXAnOudBHd2u2EELEEWMXEaALNleBfWpuB9e+3bHkZ9PAM8QiVjqvUii8nSuX8kuKfR1laxGD5TEnOnW2ZtUWUWawEtxPFiyNA/viJgPpbyDk3mTgH0KobZlBoDPnVQb+eansjQi2uumvr5NlUE52/igDLvh7GfB4/3oGzjoW+YQZcJ08yoCr83sZcL19OYP9wlnW/VrVZJCp2KA2wr69ldcDbd+YCdm3ctPJIHbcF1na6LjDzKf87OIWGL464E+q29E2mvuW+RDlKeqZiVU/g3Nq0Dcmcvs+XbOlfXnOaAJNY3uTMRms5nfHC6VAR91y3rVXNJZm6+aj8npTvGk+rzx+ex0jZcN7VX2si/ynHkAeehk0rpLm4R2FmvPedspg0T5H/8SB1qSgtUjn6kT5u1t8aA3BccMog7+M11E3V9V+BtvRMmB0GZahKVFG6n5isg1l8OxMz+hkeLlIoAxOJkRlD4SvZnChDEJzNVNxiraBGezq71G9mUF5IagPBGEPhK9mQNcgvQ5M6dD+OtjgDEyzNzMobzYHeb9afzmDf9oZrGfLFjr7B2Swbfdb0j3uzQyqG257HdNlkGZaSeWi+8azDJKjkJ2Oi8fn2IAMzCGYTppBktFdoO9JBoWKA1XSJxmUP4+qhcSTZrAK1YlPMkhC0X2YgbkizCfM4BCupR9ncAxm91kG5rWaMANTqYuFSwzIQJgTodVxjAyWdfFSF9wTZWCXsnNRZfwwAypaeXxpdVyNkAE7NUXGNBkkdehCtGe9fF4fLOtxy/K25aP6wGYwowPhOFUGa2k/zzWgRuo3qRzHyMBUcOWBcPlmBiubgfkdlrZ3D8jAlNOzdsdxMijsgUDl45cyoDu7TmwGnV/8v5wBs+Vm9MUMzMlcFiJr72k9+FzohjdSBvTNiJzqJefh2icZiH1ytz7QzaD8rWquiWVtunYkP0OviTw+tDr+EaNkYB9w0DR342TAhXSY50T1lZCb19pFJeCQeyNXrY402OcZuEVo61j7JAMfXZ3M7tPMjsc1Eg89Uh0jA5beQ5DuNWfkDBanav9Sh/Y/yWDzpd8Ldj33iN2G42YgzC/nv2/+ZmoqzO9kcJXCTLP1F+SIGQihMrueSAYW8ySDKw8dCa9nkGmllG79Q3VdVQ/9VacK296qxxTa/4cerx5mSNXP4KZ6pIyjn3uTQxTLfiOlbs7HH3W9pWiNnV6Uv+PLGcxIZ2O6mXf/w02oof/5duEbxRneVXSfIyZbT6vZzGl2pS3dxQU6Dlo3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwn/Qtv+FFNv3iuOQAAAABJRU5ErkJggg==">
+        </header>
+        <nav>
+            
+            <ul>
+                <li><a href="FirstDemo.html">HOME</a></li>
+                <li><a href="Second.html">ABOUT US</a></li>
+                <li><a href="width-and-spacing.html" >CONTACT US</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+        <form action="http://www.example.com/subscibe.php" method="get">
+            <fieldset>
+                <div style="text-align: center; background-color: lightgoldenrodyellow;">
+            <p>Username:
+                <input type="text" name="username" size="15" maxlength="30" placeholder="Enter Name" required/>
+            </p>
+            <p>Password:
+                <input type="password" name="password" size="15" min="5" maxlength="10" required/>
+            </p>
+            <p>Please intoduce yourself:
+            <textarea placeholder="Enter introduction" name="intro" size="20"></textarea>
+            </p>
+
+            <p>Please select your favourite genre:
+                <br />
+                <input type="radio" name="genre" value="rock" checked="checked" />Rock
+                <input type="radio" name="genre" value="classical" />Classical
+                <input type="radio" name="genre" value="jazz" />Jazz
+            </p>
+
+            <p>Which app do you prefer for music?
+            </br>
+                <input type="checkbox" name="service" value="iTunes" checked="checked" />iTunes
+                <input type="checkbox" name="service" value="Spotify" />Spotify
+                <input type="checkbox" name="service" value="Youtube music" />YouTube Music
+            </p>
+
+            <p>What do you prefer to shop?
+                <select name="shopping">
+                <option value="electronic" >Electronic</option>
+                <option value="clothes">Clothes</option>
+                <option value="grocery">Grocery</option>
+                </select>
+            </p>
+
+            <p>Please enter your email id
+                <input type="email" name="email">
+            </p>
+
+            <p>Enter website url
+                <input type="url" name="url" placeholder="Enter valid website url">
+
+            </p>
+
+            <label for="username">Date of birth:</label>
+            <input type="date" name="date">
+            <p>Please enter age</p>
+            <input type="number" max="100">
+
+            <p>Please Enter only text</p>
+            <input type="text" pattern="[A-Za-z]+" title="letters only" required />
+           <br/><br/>
+           
+            <input type="submit" value="submit">
+                </div>
+        </fieldset>
+        </form>
+        </article>
+        <article>
+            <p>What is semantic in simple words?
+                Semantics means the meaning and interpretation of words, signs, and sentence structure. Semantics largely determine our reading comprehension, how we understand others, and even what decisions we make as a result of our interpretations.</p>
+                <p>What is semantic in simple words?
+                    Semantics means the meaning and interpretation of words, signs, and sentence structure. Semantics largely determine our reading comprehension, how we understand others, and even what decisions we make as a result of our interpretations.</p>
+        </article>
+    </section>
+
+    <footer>@Copy rights reserved @NTT DATA</footer>
+
+
+    </body>
+</html>

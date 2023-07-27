@@ -1,0 +1,262 @@
+1 scripting lang
+2 validation
+3 chrome v8 
+4 
+5 executes js, browser
+6 v8
+7 let value changes, const constant
+8 .js
+9 script in head
+10 pop up msg to give msgs
+11 funct name{}
+12 onclick=funct_name
+13 p as child of  div
+14 style applied whn there is change in state(hover,focus)
+15 inline block
+16 space
+17 p as first child
+18 cursor in input type field
+19 cursor in text box
+20 p as 4th child green
+21 p as odd child green
+   p as even child blue
+22 pseudo ele
+23 width,height
+24 inclusive of padding,border,margin
+25 background:url()
+26 rep, no rep
+27 rel, abs
+28 underline,linethr
+29 upp,cap,
+30 right,left,justify,center
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Day3 Recap Questions
+==================
+1. What are different types of for loops - for, for in,for of
+2. What is the output - index of arr1
+for(let a in array1)
+{
+console.log(a)
+}
+3. What is the output - element
+for(let a of array1)
+{
+console.log(a)
+}
+4. give the scope of let const and var  - let,const only in funct   var-outside
+5. write syntax for a function with parameter - function fname(var)
+6, write syntax for a function with return type - 
+7. what is an arrow function  - let res=()=>{}
+8. an object is a collection of __var______- and ___funct____-
+9. difference between filter and map functions in array - filter reduce the no. of ele based on cond
+                                                          map operation on every ele
+10. difference between substring and slice in string functions - substring-starting nd ending index
+                                                                 slice only starting
+11. Math.sqrt -sq root
+12. Math.PI -pi
+13. how to get todays data - const d1=new date(); 
+14. three different ways to create a date variable   no param, date param, day month yr sec millisec param
+15. Every thing javascript is treated a _________--object
+16. Can a object have functions - yes
+17, give syntax of an object with three properties and two functions - 
+
+const person={
+id:
+name:
+age:
+
+talk(){}
+walk(){}
+work(){}
+
+
+18. how to create a string variable in two different ways
+let varname=""
+let varname=new String("")
+
+
+19. how to create an array in two different ways
+let array=[]
+let arr=new Array()
+
+20. difference between concat and ...spreadoperator
+concat join 2 arr
+spread join nd add other elements
+
+22. What is this keyword? 
+current obj, to assign value
+
+23. A class is a collection of ________-
+mem funct, mem data
+
+24. how to write a constructor
+constructor(id,name,age,add){
+this.id=id
+
+}
+
+
+
+25. syntax to create an object or instance of the class
+let p1=new person(param)
+
+
+26. What is a module
+
+reusable prg
+
+27. how to create a module
+ export
+
+28. how to include or access a module in other programs
+
+import {} from './file'
+
+29. what are the different javascript programs which can be created as module
+class, funct,variable,array
+
+
+30 . What is package.json and why and what setting did we add in package.json
+to access modules, add type = module
+
+31. which command is used to add package.json file to for folder
+npm init -yes
+
+
+
+-------------------------------------------------------------------------------------
+Day 5
+
+
+1. what meant by responsive
+adjusting to screen size
+
+2. How is responsive implemented in html
+meta viewport content="device-width,initial-scale=1
+
+
+3. how is responsive implemented in css
+@mediaquery
+
+4. how is responsive implemented in bootstrap
+containers
+
+5. what is meant by interactive web page
+communicates and responds to user
+
+6. what is meant by dynamic web page and static web page
+dynamic-interactive,design change, animation
+static- stable content,same design
+
+
+7. What is a layout 
+arrangement of all ele, like building plan, page divisions
+
+8. Different ways to implement layout in bootstrap
+container, container-fluid,flexbox,grid (col-sm-4)
+
+
+9. what is container and why and where should you add container
+
+layout, aligns ele in within a given device
+its a class name to make fixed width responsive
+all the elements of web page within ele
+
+10. Difference between container and container-fluid
+container-fixed max-width   (width fr devices->wont change while widening
+container-fluid-100%   (spans across avai space
+
+11. What is Grid class and why 
+dividing 1 row into colmns
+
+12. total number of cols in a grid
+12
+
+13. what is flexbox 
+class having flex-items, aligns based on sixe
+
+14. how is flex different between flexbox and containter
+flexible length-flexbox
+occupies complete width- container
+
+15. what is jumbotron class do
+highlight text
+
+
+16. what is pagination and where do we add it
+it is navbar to add pgnos
+add at end of pg
+
+17. what is courosel and why
+bootstrap class to make slideshow of html ele
+
+18. how to add icons to your web page
+fontawesome cdn
+<i class="">icon</i>
+
+19. what is form-group and form-control
+form grp- structure to form
+form control- controls inp and select tag
+
+20. how to add class to a table, for dark and striped table
+class="table table-striped table-dark"
+
+21. difference between btn btn-group
+btn-individual buttons with space
+btn-group series of buttons without spaces
+
+22. what is typescript and why
+scripting lang, superscript of js
+
+23. command to install typescript
+npm install -g typescript
+npx -p typescript tsc file.ts
+
+24. extension of a typescript file
+.ts
+
+
+25. what is transpiling
+compiling ts prg
+
+26. how to compile a typescript file
+tsc file.ts
+
+
+27. how to execute a typescript file
+node file.js
+
+28. 
+let sname;
+what is the datatype of the above variable
+any
+
+29. 
+let sname="samatha"
+what is the datatype of above variable
+string
+
+30.
+can datatype any can store any type of data
+yes
+
